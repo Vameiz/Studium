@@ -2,14 +2,12 @@ package Uebungen;
 
 public class Variablen {
 	// TODO: declare a constant named "FOO_BAR" with a value of -123.456 * 10^(-89)
-	public static int F00_BAR() {
-		F00_BAR = -123.456 * (10 ^ (-89));
-	}
 
+	public static double FOO_BAR = -123.456 * (10 ^ (-89));
 
 	// TODO: declare an enumeration named "Months" containing the
 	// english names in CAPITAL_LETTERS (!) of all the 12 months of the year in correct chronological order
-	public static enum Months(){
+	public enum Months{
 		JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER;
 	}
 
@@ -19,7 +17,7 @@ public class Variablen {
 		int[] zahl;
 		int[]= new int [26];
 		int i = 0;
-		 while (i<zahl.lenght){
+		 while (i<zahl.laenght){
 		 	zahl[i]=i;
 		 	return(zahl[i]);
 		 	i++;
