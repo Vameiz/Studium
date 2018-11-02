@@ -50,18 +50,18 @@ public class GameOfDicePublicTest {
 	// ========== Play the game: ==========
 	// to compile on command line: javac -cp .:/usr/share/java/junit4.jar *.java
 	// to run on command line: java -cp .:/usr/share/java/junit4.jar $(ls * | grep PublicTest.class | sed s/.class//)
-	public static void main(String args[]) {
-		int e = GameOfDice.game(args);
-		if (e == -1) {
-			System.out.println("Illegal Input");
-		} else if (e == 0) {
-			System.out.println("Draw");
-		} else if (e == 1) {
-			System.out.println("Player 1 won");
-		} else if (e == 2) {
-			System.out.println("Player 2 won");
-		} else {
-			System.out.println("Game Error");
-		}
-	}
+//	public static void main(String args[]) {
+//		int e = GameOfDice.game(args);
+//		if (e == -1) {
+//			System.out.println("Illegal Input");
+//		} else if (e == 0) {
+//			System.out.println("Draw");
+//		} else if (e == 1) {
+//			System.out.println("Player 1 won");
+//		} else if (e == 2) {
+//			System.out.println("Player 2 won");
+//		} else {
+//			System.out.println("Game Error");
+//		}
+//	}
 }
