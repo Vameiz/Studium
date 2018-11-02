@@ -12,19 +12,23 @@ public class Variablen {
 	}
 
 	public static char[] someCharacters() {
-		// TODO: declare, fill and return an 1-dimensional
+		//TODO: declare, fill and return an 1-dimensional
 		// array containing the ASCII-letters A to Z (capital letters)
-		int[] zahl;
-		int[]= new int [26];
-		int i = 0;
-		 while (i<zahl.laenght){
-		 	zahl[i]=i;
-		 	return(zahl[i]);
-		 	i++;
-		 }
+//		int[] zahl;
+//		int[]= new int [26];
+//		int i = 0;
+//		 while (i<zahl.lenght){
+//		 	zahl[i]=i;
+//		 	return(zahl[i]);
+//		 	i++;
+//		 }
 
 
-		return (char(i));
+		//return (char(i));
+		char[]sC={
+		={'A', 'B', 'C', 'D', 'E', 'F','G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R','S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+		}
+		return sC;
 	}
 
 	public static char[][] someMoreCharacters() {
