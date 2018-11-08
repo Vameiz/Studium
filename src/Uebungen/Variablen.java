@@ -11,7 +11,7 @@ public class Variablen {
 		JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER;
 	}
 
-	public static char someCharacters() {
+	public static char[] someCharacters() {
 //		//TODO: declare, fill and return an 1-dimensional
 //		// array containing the ASCII-letters A to Z (capital letters)
 //		int[] zahl;
@@ -25,9 +25,8 @@ public class Variablen {
 //
 //
 //		return (char(i));
-		char[]sC= {
-				{'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'},
-		};
+		char[]sC= {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+
 		return sC;
 
 	}
