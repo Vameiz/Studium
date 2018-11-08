@@ -25,7 +25,7 @@ public class Negafibonacci {
 //             return negaFibo(n-2) + negaFibo(n-1);
 //            return b;
         else if(n < 1) {
-            double x =new double[(negaFibo(n - 2, nfrc) + negaFibo(n - 1, nfrc)];
+            double x = negaFibo(n - 2, nfrc) + negaFibo(n - 1, nfrc);
             double v = (Math.pow((-1), (n + 1)));
             return (int) (x*v);
         }
