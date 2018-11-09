@@ -7,10 +7,21 @@ public class Merge {
         m.merge();
         int b = 0;
         if (i < 0){
-            return merge(ns[0] * ns[b], i, m);
+            return merge( ns[0] * ns[b], i, m);
             b++;
         }
-        else if (i > 0){
+        else if (i > ns.length-1){
+            ns[]= new int ns[0];
+            return ns[0];
+            //leeres Array ausgeben
+        }
+        else{
+            if()
+
+
+
+
+        }
 
     }
 }
