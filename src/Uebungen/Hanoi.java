@@ -14,7 +14,7 @@ public class Hanoi {
             } else {
                 solve(n - 1, start, spare, target, hrc);
                 System.out.println(start + "->" + target);
-                solve(n - 1, start, spare, target, hrc);
+                solve(n - 1, spare, target, start, hrc);
             }
 
 
@@ -22,7 +22,5 @@ public class Hanoi {
         return "";
 
     }
-    public interface HanoiRecCheck {
-        public void checkRecHanoi();
-    }
+
 }
