@@ -2,7 +2,7 @@ package Uebungen;
 
 public class Negafibonacci {
 
-    static int negaFibo(int n, NegaFiboRecCheck nfrc) {
+    public static int negaFibo(int n, NegaFiboRecCheck nfrc) {
 
         nfrc.nfrc();
 
@@ -22,14 +22,17 @@ public class Negafibonacci {
 
 
 
+        return Integer.parseInt("");
+
+
+    }
+    public interface NegaFiboRecCheck {
+        public void nfrc();
+    }
 
 
 
     }
-
-    }
-
-}
 
 
 

@@ -22,4 +22,7 @@ public class Hanoi {
         return "";
 
     }
+    public interface HanoiRecCheck {
+        public void checkRecHanoi();
+    }
 }
